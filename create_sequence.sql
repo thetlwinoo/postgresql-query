@@ -1,0 +1,5 @@
+CREATE SEQUENCE invoice_next_id
+START 1000
+INCREMENT 1
+MINVALUE 1
+OWNED BY invoices.id;
